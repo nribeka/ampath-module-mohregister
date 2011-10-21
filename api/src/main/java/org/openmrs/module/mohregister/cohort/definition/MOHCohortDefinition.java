@@ -14,6 +14,7 @@
 
 package org.openmrs.module.mohregister.cohort.definition;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
@@ -38,4 +39,11 @@ public class MOHCohortDefinition extends BaseCohortDefinition {
 	public void setLocationList(final List<Location> locationList) {
 		this.locationList = locationList;
 	}
+
+    public void addLocation(Location location) {
+    	if (locationList == null) {
+    		locationList = new ArrayList<Location>();
+    	}
+    	locationList.add(location);
+    }
 }

@@ -15,16 +15,23 @@
 package org.openmrs.module.mohregister.cohort.definition.evaluator;
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openmrs.Cohort;
 import org.openmrs.Concept;
+import org.openmrs.OpenmrsObject;
 import org.openmrs.annotation.Handler;
 import org.openmrs.api.ConceptService;
 import org.openmrs.api.EncounterService;
 import org.openmrs.api.PatientSetService;
 import org.openmrs.api.context.Context;
+import org.openmrs.module.mohregister.PropertyNameConstants;
 import org.openmrs.module.mohregister.cohort.definition.MOHCohortDefinition;
 import org.openmrs.module.reporting.cohort.EvaluatedCohort;
 import org.openmrs.module.reporting.cohort.definition.AgeCohortDefinition;
@@ -112,6 +119,15 @@ public class MOHCohortDefinitionEvaluator implements CohortDefinitionEvaluator {
 
 		Cohort elisaCompositionCohort = definitionService.evaluate(elisaCompositionCohortDefinition, evaluationContext);
 
-		return null;
+		Map<String, Collection<OpenmrsObject>> restrictions = new HashMap<String, Collection<OpenmrsObject>>();
+		restrictions.put(PropertyNameConstants.OBS_CONCEPT, Arrays.<OpenmrsObject>asList(elisaConcept));
+		restrictions.put(PropertyNameConstants.OBS_VALUE_CODED, Arrays.<OpenmrsObject>asList(positiveConcept));
+
+		Set<Integer> patientIds = new HashSet<Integer>();
+		patientIds.addAll(encounterCohort.getMemberIds());
+		patientIds.addAll(rapidCompositionCohort.getMemberIds());
+		patientIds.addAll(elisaCompositionCohort.getMemberIds());
+
+		return new EvaluatedCohort(new Cohort(patientIds), cohortDefinition, evaluationContext);
 	}
 }

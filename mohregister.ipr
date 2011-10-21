@@ -24,6 +24,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="73EC497D4B0F5912F68097D61F9DB889" />
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-target 1.5" />
@@ -179,6 +182,9 @@
       <module fileurl="file://$PROJECT_DIR$/api/mohregister-api.iml" filepath="$PROJECT_DIR$/api/mohregister-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/omod/mohregister-omod.iml" filepath="$PROJECT_DIR$/omod/mohregister-omod.iml" />
     </modules>
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="Sun Java 6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
@@ -736,6 +742,7 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/openmrs/api/openmrs-api/1.8.2/openmrs-api-1.8.2-sources.jar!/" />
+        <root url="file://$PROJECT_DIR$/../openmrs--1.8.x/api/src/main/java" />
       </SOURCES>
     </library>
     <library name="Maven: org.openmrs.api:openmrs-api:test-jar:tests:1.8.2">
@@ -791,6 +798,7 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/openmrs/module/reporting/0.7.0.DEV/reporting-0.7.0.DEV-sources.jar!/" />
+        <root url="file://$PROJECT_DIR$/../reporting--trunk/src" />
       </SOURCES>
     </library>
     <library name="Maven: org.openmrs.simpleframework:simple-xml:1.6.1-mod">

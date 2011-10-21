@@ -13,8 +13,11 @@
 	</description>
 	
 	<!-- / Module Properties -->
-	
-	<require_version>1.2.0.3400</require_version>
+
+	<require_modules>
+		<require_module version="0.6">org.openmrs.module.reporting</require_module>
+	</require_modules>
+	<require_version>1.8.0</require_version>
 
 
     <!-- Module Activator -->
