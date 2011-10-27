@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69fc8387-bef6-4cb5-809e-a0b7d2ed8394" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/PropertyNameConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/db/CoreDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/db/hibernate/HibernateCoreDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/service/CoreService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/service/impl/CoreServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/mohregister-api.iml" afterPath="$PROJECT_DIR$/api/mohregister-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/MOHCohortDefinition.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/MOHCohortDefinition.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/evaluator/MOHCohortDefinitionEvaluator.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/evaluator/MOHCohortDefinitionEvaluator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mohregister.ipr" afterPath="$PROJECT_DIR$/mohregister.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mohregister.iws" afterPath="$PROJECT_DIR$/mohregister.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omod/mohregister-omod.iml" afterPath="$PROJECT_DIR$/omod/mohregister-omod.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omod/src/main/resources/config.xml" afterPath="$PROJECT_DIR$/omod/src/main/resources/config.xml" />
     </list>
     <ignored path="mohregister.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +61,35 @@
     <favorites_list name="mohregister" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MOHCohortDefinitionEvaluator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/evaluator/MOHCohortDefinitionEvaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="127" selection-start="7514" selection-end="7520" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompositionCohortDefinition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/definition/CompositionCohortDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="16" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonAttributeCohortDefinition.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/definition/PersonAttributeCohortDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="57" selection-start="541" selection-end="541" vertical-scroll-proportion="0.01604278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -90,9 +108,9 @@
         <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/PropertyNameConstants.java" />
         <option value="$MAVEN_REPOSITORY$/org/openmrs/module/reporting/0.7.0.DEV/reporting-0.7.0.DEV.jar!/org/openmrs/module/reporting/cohort/definition/CodedObsCohortDefinition.class" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/service/CoreService.java" />
-        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/evaluator/MOHCohortDefinitionEvaluator.java" />
         <option value="$PROJECT_DIR$/omod/src/main/resources/config.xml" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/MOHCohortDefinition.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/evaluator/MOHCohortDefinitionEvaluator.java" />
       </list>
     </option>
   </component>
@@ -133,7 +151,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,54 +195,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="omod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mohregister" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mohregister--trunk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="omod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mohregister" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mohregister--trunk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -322,11 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,23 +331,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohregister" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohregister--trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohregister" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="definition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="evaluator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -562,8 +566,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Debug Jetty Remotely" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="4000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4000" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Maven.Build Module With Test" />
+      <item index="1" class="java.lang.String" itemvalue="Remote.Debug Jetty Remotely" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -597,27 +616,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="-5" width="1920" height="1206" extended-state="6" />
-    <editor active="false" />
+    <frame x="1" y="24" width="1680" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39981532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959914" sideWeight="0.6712835" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892704" sideWeight="0.6001847" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -647,7 +667,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="mohregister: creating core service to perform elisa checking on on cohort" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -660,31 +680,12 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="mohregister: creating core service to perform elisa checking on on cohort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/query/db/hibernate/HibernateCohortQueryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="893" column="19" selection-start="31507" selection-end="31507" vertical-scroll-proportion="-0.72238517" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/query/db/CohortQueryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/PropertyNameConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="862" selection-end="862" vertical-scroll-proportion="0.6017192" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/db/CoreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="119" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.6232092" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/db/hibernate/HibernateCoreDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="4" selection-start="2471" selection-end="2471" vertical-scroll-proportion="0.73782235" />
@@ -715,40 +716,56 @@
         <state line="31" column="32" selection-start="994" selection-end="994" vertical-scroll-proportion="0.49426934" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/evaluator/MOHCohortDefinitionEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="66" selection-start="5053" selection-end="5053" vertical-scroll-proportion="1.4580265" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/MOHRegisterReportActivator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="13" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/MOHCohortDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="26" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.54028434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/omod/src/main/resources/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="413" selection-end="413" vertical-scroll-proportion="0.19905214">
-          <folding />
-        </state>
+        <state line="14" column="32" selection-start="413" selection-end="413" vertical-scroll-proportion="0.19905214" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/definition/service/BaseDefinitionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="22" selection-start="2026" selection-end="2026" vertical-scroll-proportion="-0.3104435">
-          <folding />
-        </state>
+        <state line="44" column="22" selection-start="2026" selection-end="2026" vertical-scroll-proportion="-0.3104435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/definition/service/CohortDefinitionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="62" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.42060086">
+        <state line="31" column="62" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.42060086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/definition/CohortDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="17" selection-start="826" selection-end="826" vertical-scroll-proportion="0.2985782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmrs--1.8.x/api/src/main/java/org/openmrs/logic/result/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="13" selection-start="1547" selection-end="1547" vertical-scroll-proportion="-0.14123222" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/MOHCohortDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="26" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.54028434" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/mohregister/cohort/definition/evaluator/MOHCohortDefinitionEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="127" selection-start="7514" selection-end="7520" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/definition/CompositionCohortDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="16" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../reporting--trunk/src/org/openmrs/module/reporting/cohort/definition/PersonAttributeCohortDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="541" selection-end="541" vertical-scroll-proportion="0.01604278">
           <folding />
         </state>
       </provider>
